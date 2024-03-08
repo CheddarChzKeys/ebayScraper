@@ -5,7 +5,6 @@ const search = (req, res) => {
     duration: req.query.duration,
   };
 
-  console.log("searchCriteria: ", searchCriteria);
   //ebaySearchFunction(searchCriteria);
   res.send(searchCriteria);
 };

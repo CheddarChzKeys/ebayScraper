@@ -15,7 +15,7 @@ get request example:
 http://www.ebayscraper.net/itemSearch?string=kobe%20bryant&size=100&duration=30/
 */
 
-app.use("/itemSearch", searchRouter.search);
+app.use("/itemSearch", searchRouter);
 
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
