@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 /*
 get request example:
-http://www.ebayscraper.net/itemSearch?string=kobe%20bryant&size=100&duration=30/
+http://www.ebayscraper.net/itemSearch?string=kobe%20bryant&size=100
 */
 
 app.use("/itemSearch", searchRouter);
